@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tebak Nama Jodoh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tebak Nama Jodoh Kamu</h1>
+  <label for="tanggal">Tanggal Lahir:</label>
+  <input type="number" id="tanggal" min="1" max="31"><br>
+  
+  <label for="bulan">Bulan Lahir:</label>
+  <input type="number" id="bulan" min="1" max="12"><br>
+  
+  <button onclick="tebakJodoh()">Tebak!</button>
+  
+  <h2 id="hasil"></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
